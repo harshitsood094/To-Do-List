@@ -1,1 +1,2 @@
 # To-Do-List
+https://salty-fortress-54566.herokuapp.com/. Visit this website to add the things in your To-Do-list. Apart from default list, you can also add other lists like work list, party list etc by going to https://salty-fortress-54566.herokuapp.com/work, https://salty-fortress-54566.herokuapp.com/party or anything. The data is stored in MongoDB atlas server.The website uses HTML,CSS on frontend and Node Js (with Express JS and EJS) on the backend. The mongoDB database is used which is hosted on AWS using mongoDB atlas. The entire app is deployed at Heroku.
