@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Hosting a mongoDB database
-mongoose.connect("mongodb+srv://admin-harshit:Test123@cluster0.0ursx.mongodb.net/todoListDB", {
+mongoose.connect(process.env.MONGO_DB_ATLAS, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
